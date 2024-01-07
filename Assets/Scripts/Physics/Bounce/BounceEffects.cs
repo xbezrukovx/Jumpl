@@ -20,7 +20,6 @@ namespace Physics
         {
             if (_rigidbody.velocity.y <= 0.0f)
             {
-                transform.localScale = initialScale;
                 return;
             }
 
