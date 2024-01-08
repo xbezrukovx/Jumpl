@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Collections;
+using System.Runtime.Remoting.Activation;
 using Platforms;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 
 namespace Ball
@@ -37,7 +40,8 @@ namespace Ball
         private void Destroy(Vector3 hitpoint)
         {
             _effects.EmitDestroyParticles(hitpoint);
-            Destroy(gameObject);
+            Destroy(transform);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex, LoadSceneMode.Single);
         }
     }
 }

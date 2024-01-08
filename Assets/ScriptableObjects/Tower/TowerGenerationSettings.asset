@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TowerGenerationSettings
   m_EditorClassIdentifier: 
   rotationFloatRange: {fileID: 11400000, guid: edceaf079a59cbc498ce75529b847f1b, type: 2}
-  _platformVariantCount: 20
+  _platformVariantCount: 100
   _offsetBetweenPlatforms: 0.5
   _startPlatformPrefab: {fileID: -1419994614637884053, guid: 5afee3418ada6f1469118cf837984aec,
     type: 3}
