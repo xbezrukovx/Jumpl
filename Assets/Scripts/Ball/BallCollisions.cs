@@ -40,7 +40,7 @@ namespace Ball
         private void Destroy(Vector3 hitpoint)
         {
             _effects.EmitDestroyParticles(hitpoint);
-            Destroy(transform);
+            Destroy(gameObject);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex, LoadSceneMode.Single);
         }
     }
