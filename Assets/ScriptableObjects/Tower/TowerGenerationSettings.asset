@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9738dad72dbb4d71afda6fb5a59ee059, type: 3}
   m_Name: TowerGenerationSettings
   m_EditorClassIdentifier: 
-  rotationFloatRange: {fileID: 0}
-  _platformVariantCount: 0
-  _offsetBetweenPlatforms: 0
-  _startPlatformPrefab: {fileID: 0}
-  _lastPlatformPrefab: {fileID: 0}
-  _platformVariantPrefabs: []
+  rotationFloatRange: {fileID: 11400000, guid: edceaf079a59cbc498ce75529b847f1b, type: 2}
+  _platformVariantCount: 20
+  _offsetBetweenPlatforms: 0.5
+  _startPlatformPrefab: {fileID: -1419994614637884053, guid: 5afee3418ada6f1469118cf837984aec,
+    type: 3}
+  _lastPlatformPrefab: {fileID: -1419994614637884053, guid: 28a187eff86f439498097b3df0f20c37,
+    type: 3}
+  _platformVariantPrefabs:
+  - {fileID: -1419994614637884053, guid: b16a24951e997a34495a770b638bad46, type: 3}
+  - {fileID: -2369984472151975994, guid: 2841ad7dcb2a0db458d9f3316ed85035, type: 3}
+  - {fileID: -9182614815059583733, guid: 1d15f0e80f19e4945b7157a11c3ed090, type: 3}

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: PlatformRotationRange
   m_EditorClassIdentifier: 
   _min: 0
-  _max: 0
+  _max: 360
